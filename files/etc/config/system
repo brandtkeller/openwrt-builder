@@ -1,0 +1,7 @@
+config system
+    option hostname 'openwrt-rpi5'
+    option timezone 'UTC'
+
+config timeserver 'ntp'
+    option enabled '1'
+    option enable_server '1'
